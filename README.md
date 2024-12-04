@@ -1,4 +1,4 @@
-# Michael Mod (FPS Booster++) (Calamity Addon)
+[![Title](.github/banner.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=3378163270)<br>
 [![Release](https://img.shields.io/github/v/release/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/releases/latest)
 [![Downloads](https://img.shields.io/steam/downloads/3378163270?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3378163270)
 [![File Size](https://img.shields.io/steam/size/3378163270?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3378163270)
@@ -20,9 +20,7 @@ He will be missed by many, but especially by me. Michael, my dearest, Michael...
 
 Firstly, the mod requires [tModLoader](https://tmodloader.net/) for Terraria, which can be downloaded for free on Steam.<br>
 Older versions are not supported.<br><br>
-<img src=".github/mod.png" width=70%></src><br><br>
 The mod can be installed in a few ways:
-
 - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3378163270) **(recommended)**
 - tModLoader in-game Mod Browser: search for, and download `Michael Mod (FPS Booster++) (Calamity Addon)`
 - GitHub [Releases](https://github.com/DavidF-Dev/Terraria-Michael-Mod/releases): place the `.tmod` file in `Documents/My Games/Terraria/tModLoader/Mods`
