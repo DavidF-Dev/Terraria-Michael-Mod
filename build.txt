@@ -7,4 +7,4 @@ hideCode = false
 hideResources = false
 includeSource = false
 buildIgnore = Properties/*, *.md, *.DotSettings.user
-modReferences = EasyPacketsLib
+modReferences = FF6Mod, EasyPacketsLib
