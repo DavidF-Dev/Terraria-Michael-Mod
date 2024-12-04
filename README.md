@@ -5,7 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/issues)
 [![License](https://img.shields.io/github/license/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/blob/main/LICENSE.md)
 
-In hour of Michael, a beloved member of the tModLoader community.
+In honour of Michael, a beloved member of the tModLoader community.
 Rest in piece, 1979-2024.
 
 ## Usage
