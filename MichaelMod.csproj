@@ -7,9 +7,4 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="EasyPacketsLib">
-      <HintPath>dependencies\EasyPacketsLib.dll</HintPath>
-    </Reference>
-  </ItemGroup>
 </Project>
