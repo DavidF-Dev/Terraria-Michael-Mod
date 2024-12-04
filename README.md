@@ -16,7 +16,7 @@ Older versions are not supported.<br><br>
 The mod can be installed in a few ways:
 
 - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=FOO) **(recommended)**
-- tModLoader in-game Mod Browser: search for, and download `Mod Display Name Here`
+- tModLoader in-game Mod Browser: search for, and download `Michael Mod (FPS Booster++) (Calamity Addon)`
 - GitHub [Releases](https://github.com/DavidF-Dev/Terraria-Michael-Mod/releases): place the `.tmod` file in `Documents/My Games/Terraria/tModLoader/Mods`
 
 ## Contact & Support
