@@ -3,7 +3,7 @@
 [![Downloads](https://img.shields.io/steam/downloads/3378163270?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3378163270)
 [![File Size](https://img.shields.io/steam/size/3378163270?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3378163270)
 [![Issues](https://img.shields.io/github/issues/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/issues)
-[![License](https://img.shields.io/github/license/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/blob/main/LICENSE.md)
+[![License](https://img.shields.io/github/license/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/blob/master/LICENSE.md)
 
 ## Foreword
 In honour of Michael (aka 'Michaelsoftman'), a beloved member of the tModLoader community.
