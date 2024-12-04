@@ -1,4 +1,4 @@
-[img]https://raw.githubusercontent.com/DavidF-Dev/Terraria-MichaelMod/master/.github/banner.png[/img]
+[img]https://raw.githubusercontent.com/DavidF-Dev/Terraria-Michael-Mod/master/.github/banner.png[/img]
 
 [h1]Foreword[/h1]
 In honour of Michael (aka 'Michaelsoftman'), a beloved member of the tModLoader community.
