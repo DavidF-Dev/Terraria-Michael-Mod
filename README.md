@@ -1,7 +1,7 @@
 # Michael Mod (FPS Booster++) (Calamity Addon)
 [![Release](https://img.shields.io/github/v/release/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/releases/latest)
-[![Downloads](https://img.shields.io/steam/downloads/FOO?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=FOO)
-[![File Size](https://img.shields.io/steam/size/FOO?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=FOO)
+[![Downloads](https://img.shields.io/steam/downloads/3378163270?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3378163270)
+[![File Size](https://img.shields.io/steam/size/3378163270?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3378163270)
 [![Issues](https://img.shields.io/github/issues/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/issues)
 [![License](https://img.shields.io/github/license/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/blob/main/LICENSE.md)
 
@@ -23,7 +23,7 @@ Older versions are not supported.<br><br>
 <img src=".github/mod.png" width=70%></src><br><br>
 The mod can be installed in a few ways:
 
-- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=FOO) **(recommended)**
+- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3378163270) **(recommended)**
 - tModLoader in-game Mod Browser: search for, and download `Michael Mod (FPS Booster++) (Calamity Addon)`
 - GitHub [Releases](https://github.com/DavidF-Dev/Terraria-Michael-Mod/releases): place the `.tmod` file in `Documents/My Games/Terraria/tModLoader/Mods`
 
