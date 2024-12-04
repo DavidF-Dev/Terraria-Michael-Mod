@@ -1,0 +1,10 @@
+displayName = Michael Mod (FPS Booster++) (Calamity Addon)
+author = DavidFDev
+version = 0.0.1
+side = Both
+homepage = https://github.com/DavidF-Dev/Terraria-Michael-Mod
+hideCode = false
+hideResources = false
+includeSource = false
+buildIgnore = Properties/*, *.md, *.DotSettings.user
+modReferences = EasyPacketsLib
