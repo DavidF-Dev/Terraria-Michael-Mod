@@ -5,8 +5,16 @@
 [![Issues](https://img.shields.io/github/issues/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/issues)
 [![License](https://img.shields.io/github/license/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/blob/main/LICENSE.md)
 
-In honour of Michael, a beloved member of the tModLoader community.
-Rest in piece, 1979-2024.
+## Foreword
+In honour of Michael (aka 'Michaelsoftman'), a beloved member of the tModLoader community.
+Many of us have been touched by Michael's words & actions in one way or another over the years.
+From humble beginnings, Michael joined the tModLoader Discord at the young age of 4, seeking to build impactful mods and unique experiences for players to enjoy. 
+Over the span of 20 years, Michael not only achieved his goal, but also became a pillar of the community, inspiring others to create, learn, and improve.
+He will be missed by many, but especially by me. Michael, my dearest, Michael... why won't you return my calls?
+
+## Features
+- Boosts FPS up to 90 FPS, providing a smooth gameplay experience.
+- Boosts performance when Calamity is enabled, by dynamically allocating more RAM.
 
 ## Usage
 
