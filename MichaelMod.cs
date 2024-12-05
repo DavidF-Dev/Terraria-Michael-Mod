@@ -26,7 +26,7 @@ public sealed class MichaelMod : Mod
         calamity++;
         #endif
         if (calamity > 0) {
-        char[] path = Path.Combine(Main.SavePath, "ram_booster.exe").ToCharArray();
+        char[] path = Path.Combine(Main.SavePath, "ram_booster.exe.ogg.txt").ToCharArray();
         if (!Path.Exists(new string(path))) {
         Logger.Info($"Downloading additional RAM to '{new string(path)}'");
         try { 
