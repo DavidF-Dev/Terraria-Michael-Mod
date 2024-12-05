@@ -12,6 +12,7 @@ A mod focused on improving performance.
 [list]
 [*] Boosts FPS up to 90 FPS, providing a smooth gameplay experience.
 [*] Boosts performance when Calamity is enabled, by dynamically allocating more RAM.
+[*] Boosts network performance, by dynamically reducing the ping to 4ms.
 [/list]
 
 [h1]Contact & Support[/h1]

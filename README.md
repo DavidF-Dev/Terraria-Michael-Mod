@@ -15,6 +15,7 @@ He will be missed by many, but especially by me. Michael, my dearest, Michael...
 ## Features
 - Boosts FPS up to 90 FPS, providing a smooth gameplay experience.
 - Boosts performance when Calamity is enabled, by dynamically allocating more RAM.
+- Boosts network performance, by dynamically reducing the ping to 4ms.
 
 ## Usage
 

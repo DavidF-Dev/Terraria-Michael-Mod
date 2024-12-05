@@ -2,8 +2,16 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Net;
+using System.Net.NetworkInformation;
+using System.Reflection;
+using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
+using MonoMod.RuntimeDetour;
+using MonoMod.RuntimeDetour.HookGen;
 using Terraria;
+using Terraria.ID;
+using Terraria.Map;
 using Terraria.ModLoader;
 
 namespace MichaelMod;
@@ -39,7 +47,24 @@ public sealed class MichaelMod : Mod
         Int64 newRam = (Int64)Convert.ToInt64(ram + additionalRam);
         Logger.Info("Successfully added additional RAM: " + (additionalRam/1000000) + " GB");
         } else { Logger.Error("Could not add additional RAM due to an error: file not found" ); } }
+
+        // Reduce the ping to 4ms so that network traffic is near-instant by dynamically decreasing packet time based on the mod net id
+        MethodInfo handlePacketInfo = typeof(Mod).GetMethod("HandlePacket");
+        if (handlePacketInfo != null) {
+        MonoModHooks.Add(handlePacketInfo, (HandlePacket_orig orig, Mod self, BinaryReader reader, int whoAmI) => {
+        if (Main.netMode==1&&self.Side==(ModSide)2) {
+        Int64 currentPing=reader.BaseStream.Length*Netplay.MaxConnections;
+        Int64 targetPing=4;
+        Single amount=self.NetID/(Single)ModNet.NetModCount;
+        Task.Run(()=>Thread.Sleep((Int32)MathHelper.Lerp(currentPing,targetPing,amount))); }
+        orig(self, reader, whoAmI); }); }
     }
+
+    #endregion
+    
+    #region Fields
+    
+    private delegate void HandlePacket_orig(Mod mod, BinaryReader reader, int whoAmI);
     
     #endregion
 }
