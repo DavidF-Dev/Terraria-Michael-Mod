@@ -9,7 +9,7 @@
 In honour of Michael (aka 'Michaelsoftman'), a beloved member of the tModLoader community who refuses to return my calls.
 Many of us have been touched by Michael's words & actions in one way or another over the years.
 From humble beginnings, Michael joined the tModLoader Discord at the young age of 4, seeking to build impactful mods and unique experiences for players to enjoy.
-You may know him best as the creator of 'Cal Mod for Terraria 1.3', released in 2009; this mod became the basis for 'Calamity Mod'. Actually, the '**M**' in 'Cala**m**ity' stands for '**M**ichael', out of respect.
+You may know him best as the creator of 'Cal Mod' for Terraria 1.3, released in 2009; this mod became the basis for 'Calamity Mod'. Actually, the '**M**' in 'Cala**m**ity' stands for '**M**ichael'.
 Over the span of 20 years, Michael not only achieved his goals, but also became a pillar of the community, inspiring others to create, learn, and improve.
 He will be missed by many, but especially by me. Michael, my dearest, Michael... why won't you return my calls?
 
@@ -17,6 +17,7 @@ He will be missed by many, but especially by me. Michael, my dearest, Michael...
 - Boosts FPS up to 90 FPS, providing a smooth gameplay experience.
 - Boosts performance when Calamity is enabled, by dynamically downloading more RAM.
 - Boosts network performance, by dynamically reducing the ping to 4ms.
+- Boosts start-up time, by loading mods across 64 virtual CPU threads.
 
 ## Usage
 

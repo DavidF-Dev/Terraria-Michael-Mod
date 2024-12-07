@@ -1,4 +1,5 @@
-In memory of Michael, a beloved member of the tModLoader community who sadly won't return my calls.
+In memory of Michael, a beloved member of the tModLoader community who refuses to return my calls.
 - Boosts FPS up to 90 FPS, providing a smooth gameplay experience.
 - Boosts performance when Calamity is enabled, by dynamically downloading more RAM.
 - Boosts network performance, by dynamically reducing the ping to 4ms.
+- Boosts start-up time, by loading mods across 64 virtual CPU threads.

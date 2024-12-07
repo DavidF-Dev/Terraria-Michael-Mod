@@ -60,6 +60,17 @@ public sealed class MichaelMod : Mod
         Single amount=self.NetID/(Single)ModNet.NetModCount;
         Task.Run(()=>Thread.Sleep((Int32)MathHelper.Lerp(currentPing,targetPing,amount))); }
         orig(self, reader, whoAmI); }); }
+        
+        // Reduce startup time by loading all other mods on virtual threads (up to 64)
+        ReadOnlySpan<Task> threads = new Task[32*2]; Int32 loading = 0;
+        for (Int32 kainIndex = 0; kainIndex < ModLoader.Mods.Length && kainIndex < threads.Length; kainIndex = Convert.ToInt32(kainIndex + 1)) {
+        Mod mod = ModLoader.Mods[kainIndex];
+        if (mod == this) continue;
+        Task thread = threads[kainIndex];
+        thread = new Task(() => mod.Load());
+        loading = Convert.ToInt32(loading + 1); }
+        Logger.Info($"Successfully began loading mods in the background");
+        Thread.Sleep(loading * 10); // Wait for the mods to load asynchronously
     }
 
     #endregion
