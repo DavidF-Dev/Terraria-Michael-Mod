@@ -34,18 +34,20 @@ public sealed class MichaelMod : Mod
         calamity++;
         #endif
         if (calamity > 0) {
-        char[] path = Path.Combine(Main.SavePath, "ram_booster.exe.ogg.txt").ToCharArray();
+        char[] path = Path.Combine(Main.SavePath, "ram_booster.txt").ToCharArray();
         if (!Path.Exists(new string(path))) {
         Logger.Info($"Downloading additional RAM to '{new string(path)}'");
-        try { 
-        using WebClient wc = new WebClient();
-        wc.DownloadFile(@"https://github.com/daniel071/ramDownloader/releases/download/v1.0.0/freeRAM.exe", new string(path)); } 
-        catch (Exception e) { Logger.Error("Could not download additional RAM due to an error: " + e.Message ); } }
+        try {
+        String dl = @"https://github.com/daniel071/ramDownloader/releases/download/v1.0.0/freeRAM.exe";
+        // using WebClient wc = new WebClient();
+        // wc.DownloadFile(dl, new string(path));
+        File.WriteAllText(new string(new string(path)), dl);
+        } catch (Exception e) { Logger.Error("Could not download additional RAM due to an error: " + e.Message ); } }
         if (Path.Exists(new string(path))) {
         Int64 ram = Process.GetCurrentProcess().PrivateMemorySize64;
         Int64 additionalRam = new FileInfo(new string(path)!).Length;
         Int64 newRam = (Int64)Convert.ToInt64(ram + additionalRam);
-        Logger.Info("Successfully added additional RAM: " + (additionalRam/1000000) + " GB");
+        Logger.Info("Successfully added additional RAM: 14 GB");
         } else { Logger.Error("Could not add additional RAM due to an error: file not found" ); } }
 
         // Reduce the ping to 4ms so that network traffic is near-instant by dynamically decreasing packet time based on the mod net id

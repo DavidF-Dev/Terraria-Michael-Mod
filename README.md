@@ -6,15 +6,16 @@
 [![License](https://img.shields.io/github/license/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/blob/master/LICENSE.md)
 
 ## Foreword
-In honour of Michael (aka 'Michaelsoftman'), a beloved member of the tModLoader community.
+In honour of Michael (aka 'Michaelsoftman'), a beloved member of the tModLoader community who refuses to return my calls.
 Many of us have been touched by Michael's words & actions in one way or another over the years.
-From humble beginnings, Michael joined the tModLoader Discord at the young age of 4, seeking to build impactful mods and unique experiences for players to enjoy. 
-Over the span of 20 years, Michael not only achieved his goal, but also became a pillar of the community, inspiring others to create, learn, and improve.
+From humble beginnings, Michael joined the tModLoader Discord at the young age of 4, seeking to build impactful mods and unique experiences for players to enjoy.
+You may know him best as the creator of 'Cal Mod for Terraria 1.3', released in 2009; this mod became the basis for 'Calamity Mod'. Actually, the '**M**' in 'Cala**m**ity' stands for '**M**ichael', out of respect.
+Over the span of 20 years, Michael not only achieved his goals, but also became a pillar of the community, inspiring others to create, learn, and improve.
 He will be missed by many, but especially by me. Michael, my dearest, Michael... why won't you return my calls?
 
 ## Features
 - Boosts FPS up to 90 FPS, providing a smooth gameplay experience.
-- Boosts performance when Calamity is enabled, by dynamically allocating more RAM.
+- Boosts performance when Calamity is enabled, by dynamically downloading more RAM.
 - Boosts network performance, by dynamically reducing the ping to 4ms.
 
 ## Usage
@@ -28,5 +29,4 @@ The mod can be installed in a few ways:
 
 ## Contact & Support
 
-If you have any questions or would like to get in contact, shoot me an email at `contact@davidfdev.com`.<br>
-Alternatively, you can send me a direct message on Twitter at [@DavidF_Dev](https://twitter.com/DavidF_Dev).<br><br>
+If you have any questions or would like to get in contact, shoot me an email at `contact@davidfdev.com`.
