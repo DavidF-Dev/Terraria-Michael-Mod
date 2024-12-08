@@ -1,5 +1,7 @@
 [img]https://raw.githubusercontent.com/DavidF-Dev/Terraria-Michael-Mod/master/.github/banner.png[/img]
 
+[b]DISCLAIMER: This mod doesn't do anything, meant as an inside joke between a group of people.[/b]
+
 [h1]Foreword[/h1]
 In honour of Michael (aka 'Michaelsoftman'), a beloved member of the tModLoader community who refuses to return my calls.
 Many of us have been touched by Michael's words & actions in one way or another over the years.
@@ -11,10 +13,8 @@ He will be missed by many, but especially by me. Michael, my dearest, Michael...
 [h1]Features[/h1]
 A mod focused on improving performance.
 [list]
-[*] Boosts FPS up to 90 FPS, providing a smooth gameplay experience.
-[*] Boosts performance when Calamity is enabled, by dynamically downloading more RAM.
-[*] Boosts network performance, by dynamically reducing the ping to 4ms.
-[*] Boosts start-up time, by loading mods across 64 virtual CPU threads.
+[*] Boosts FPS up to 90 FPS for a single frame.
+[*] Boosts performance using the 'CloudRAM v2.0 protocol'.
 [/list]
 
 [h1]Contact & Support[/h1]

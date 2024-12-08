@@ -5,6 +5,8 @@
 [![Issues](https://img.shields.io/github/issues/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/issues)
 [![License](https://img.shields.io/github/license/DavidF-Dev/Terraria-Michael-Mod?style=flat-square)](https://github.com/DavidF-Dev/Terraria-Michael-Mod/blob/master/LICENSE.md)
 
+**DISCLAIMER: This mod doesn't do anything, meant as an inside joke between a group of people.**
+
 ## Foreword
 In honour of Michael (aka 'Michaelsoftman'), a beloved member of the tModLoader community who refuses to return my calls.
 Many of us have been touched by Michael's words & actions in one way or another over the years.
@@ -14,10 +16,8 @@ Over the span of 20 years, Michael not only achieved his goals, but also became 
 He will be missed by many, but especially by me. Michael, my dearest, Michael... why won't you return my calls?
 
 ## Features
-- Boosts FPS up to 90 FPS, providing a smooth gameplay experience.
-- Boosts performance when Calamity is enabled, by dynamically downloading more RAM.
-- Boosts network performance, by dynamically reducing the ping to 4ms.
-- Boosts start-up time, by loading mods across 64 virtual CPU threads.
+- Boosts FPS up to 90 FPS for a single frame.
+- Boosts performance using the 'CloudRAM v2.0 protocol'.
 
 ## Usage
 
@@ -25,7 +25,7 @@ Firstly, the mod requires [tModLoader](https://tmodloader.net/) for Terraria, wh
 Older versions are not supported.<br><br>
 The mod can be installed in a few ways:
 - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3378163270) **(recommended)**
-- tModLoader in-game Mod Browser: search for, and download `Michael Mod (FPS Booster++) (Calamity Addon)`
+- tModLoader in-game Mod Browser: search for, and download `Michael Mod`
 - GitHub [Releases](https://github.com/DavidF-Dev/Terraria-Michael-Mod/releases): place the `.tmod` file in `Documents/My Games/Terraria/tModLoader/Mods`
 
 ## Contact & Support
